@@ -2,10 +2,9 @@ import copy
 
 
 def re_arranger(array, column):
-    # getting an array without the first row
     # with deep copy we make an array that won't affect the original array
     new_array = copy.deepcopy(array)
-
+    # getting an array without the first row
     new_array.pop(0)
     # getting an array without the column which is chosen
     for i in range(len(new_array)):
