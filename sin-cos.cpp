@@ -23,7 +23,6 @@ double sin(double x){
    for(int i = 0; i < 10; i++){
      // sin x = x − x^2/2! + x^4/4! - x^6/6! + ...
      result = result + pow(-1,i)*(pow(x,2*i+1)/factorial(2*i+1));
-
    }
    return result;
 }
@@ -35,7 +34,6 @@ double cos(double x){
    for(int i = 0; i < 11; i++){
      // cos x = 1 − x + x^3/3! - x^5/5! + ...
      result = result + pow(-1,i)*(pow(x,2*i)/factorial(2*i));
-
    }
    return result;
 }
