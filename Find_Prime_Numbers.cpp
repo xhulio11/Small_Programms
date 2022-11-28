@@ -51,7 +51,7 @@ int main(){
             list.push_back(i);
         }
         
-        // Finially, we continue to check for the next number. 
+        // Finally, we continue to check for the next number. 
     }
 
     // Print the results
