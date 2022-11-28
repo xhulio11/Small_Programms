@@ -47,10 +47,10 @@ int main(){
         If we itirated through the whole vector it means that we did not find any number that can devide (i)
         So we push it in our list 
         */
-
         if(j == list.size()){
             list.push_back(i);
         }
+        
         // Finially, we continue to check for the next number. 
     }
 
